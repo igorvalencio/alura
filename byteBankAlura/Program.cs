@@ -1,5 +1,6 @@
 ﻿using byteBankAlura;
 using byteBankAlura.Funcionarios;
+using byteBankAlura.ParceriaComercial;
 using byteBankAlura.SistemaInterno;
 
 #region
@@ -89,6 +90,8 @@ void UsarSistema()
     GerenteDeContas gerente2 = new GerenteDeContas("0058222");
     gerente2.nome = "gerente2";
     gerente2.senha = "321";
+
+    ParceiroComercial parceiro1 = new ParceiroComercial();
 
     sistema.Logar(diretor2, "123");
     sistema.Logar(gerente2, "322");

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace byteBankAlura.ParceriaComercial
 {
-    internal class ParceiroComercial
+    public class ParceiroComercial
     {
+        public string senha {get; set;}
+        public  bool autenticar(string senha)
+        {
+            return this.senha == senha;
+        }
     }
 }
