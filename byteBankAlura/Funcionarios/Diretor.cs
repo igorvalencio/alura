@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using byteBankAlura.Funcionarios;
+using byteBankAlura.SistemaInterno;
 
 namespace byteBankAlura.Funcionarios 
 {
-    public class Diretor : Funcionario
+    public class Diretor : Autenticavel
     {
         public override double GetBonificacao()
         {
@@ -22,12 +23,9 @@ namespace byteBankAlura.Funcionarios
             this.salario *= 1.15;
         }
 
-        public string senha { get; set; }
-        public bool autenticar(string senha)
+        public override bool autenticar(string senha)
         {
             return this.senha == senha;
         }
-
-
     }
 }

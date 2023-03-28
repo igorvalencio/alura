@@ -91,7 +91,7 @@ void UsarSistema()
     gerente2.senha = "321";
 
     sistema.Logar(diretor2, "123");
-    sistema.Logar(gerente2, "321");
+    sistema.Logar(gerente2, "322");
 
 }
 

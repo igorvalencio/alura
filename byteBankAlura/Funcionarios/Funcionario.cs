@@ -23,10 +23,8 @@ namespace byteBankAlura.Funcionarios
             this.cpf = cpf;
             TotalFuncionarios++;
         }
+     
 
-        
-       
 
-       
     }
 }
