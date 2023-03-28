@@ -8,7 +8,7 @@ namespace byteBankAlura.Funcionarios
 {
     public class GerenteDeContas : Funcionario
     {
-        public GerenteDeContas(string cpf, double salario) : base(cpf, salario)
+        public GerenteDeContas(string cpf) : base(cpf, 4500)
         {
 
         }
@@ -19,6 +19,12 @@ namespace byteBankAlura.Funcionarios
         public override double GetBonificacao()
         {
             return this.salario * 0.25;
+        }
+
+        public string senha { get; set; }
+        public bool autenticar(string senha)
+        {
+            return this.senha == senha;
         }
     }
 }

@@ -22,6 +22,12 @@ namespace byteBankAlura.Funcionarios
             this.salario *= 1.15;
         }
 
+        public string senha { get; set; }
+        public bool autenticar(string senha)
+        {
+            return this.senha == senha;
+        }
+
 
     }
 }

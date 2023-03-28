@@ -1,5 +1,6 @@
 ﻿using byteBankAlura;
 using byteBankAlura.Funcionarios;
+using byteBankAlura.SistemaInterno;
 
 #region
 //Funcionario pedro = new Funcionario("321654987", 1500);
@@ -56,16 +57,16 @@ void CalcularBonificacao()
 {
     GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-    Designer designer1 = new Designer("321456897", 10000);
+    Designer designer1 = new Designer("321456897");
     designer1.nome = "designer1";
 
-    Diretor diretor1 = new Diretor("564897321", 20000);
+    Diretor diretor1 = new Diretor("564897321");
     diretor1.nome = "diretor1";
 
-    Auxiliar auxiliar1 = new Auxiliar("456798312", 30000);
+    Auxiliar auxiliar1 = new Auxiliar("456798312");
     auxiliar1.nome = "auxiliar1";
 
-    GerenteDeContas gerente1 = new GerenteDeContas("98754", 40000);
+    GerenteDeContas gerente1 = new GerenteDeContas("98754");
     gerente1.nome = "gerente1";
 
     gerenciador.Registrar(gerente1);
@@ -74,6 +75,23 @@ void CalcularBonificacao()
     gerenciador.Registrar(gerente1);
 
     Console.WriteLine("Total de bonificação: " + gerenciador.TotalBonificacoes);
+
+}
+
+ UsarSistema();
+void UsarSistema()
+{
+    SistemaInterno sistema = new SistemaInterno();
+    Diretor diretor2 = new Diretor("00213654");
+    diretor2.nome = "diretor2";
+    diretor2.senha = "123";
+
+    GerenteDeContas gerente2 = new GerenteDeContas("0058222");
+    gerente2.nome = "gerente2";
+    gerente2.senha = "321";
+
+    sistema.Logar(diretor2, "123");
+    sistema.Logar(gerente2, "321");
 
 }
 
