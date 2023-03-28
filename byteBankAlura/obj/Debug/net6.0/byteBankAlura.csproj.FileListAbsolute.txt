@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\alura\byteBankAlura\bin\Debug\net6.0\byteBankAlura.exe
+C:\Users\Usuario\Documents\alura\byteBankAlura\bin\Debug\net6.0\byteBankAlura.deps.json
+C:\Users\Usuario\Documents\alura\byteBankAlura\bin\Debug\net6.0\byteBankAlura.runtimeconfig.json
+C:\Users\Usuario\Documents\alura\byteBankAlura\bin\Debug\net6.0\byteBankAlura.dll
+C:\Users\Usuario\Documents\alura\byteBankAlura\bin\Debug\net6.0\byteBankAlura.pdb
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.AssemblyInfo.cs
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.dll
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\refint\byteBankAlura.dll
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.pdb
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\byteBankAlura.genruntimeconfig.cache
+C:\Users\Usuario\Documents\alura\byteBankAlura\obj\Debug\net6.0\ref\byteBankAlura.dll
