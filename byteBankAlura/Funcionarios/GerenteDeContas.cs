@@ -7,20 +7,16 @@ using System.Threading.Tasks;
 
 namespace byteBankAlura.Funcionarios
 {
-    public class GerenteDeContas : Autenticavel
+    public class GerenteDeContas :FuncionarioAutenticavel
     {
         public GerenteDeContas(string cpf) : base(cpf, 4500)
         {
 
         }
+
         public override void AumentarSalario()
         {
             this.salario *= 1.05;
-        }
-
-        public override bool autenticar(string senha)
-        {
-            return this.senha == senha;
         }
 
         public override double GetBonificacao()

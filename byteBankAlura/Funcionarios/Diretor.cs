@@ -8,24 +8,22 @@ using byteBankAlura.SistemaInterno;
 
 namespace byteBankAlura.Funcionarios 
 {
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
+
+
         public override double GetBonificacao()
         {
             return salario;
         }
-        public Diretor(string cpf) : base(cpf, 5000) 
+        public Diretor(string cpf) : base(cpf, 5000)
         {
-            
+
         }
         public override void AumentarSalario()
         {
             this.salario *= 1.15;
         }
 
-        public override bool autenticar(string senha)
-        {
-            return this.senha == senha;
-        }
     }
 }

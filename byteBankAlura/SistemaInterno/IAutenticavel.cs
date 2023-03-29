@@ -7,15 +7,10 @@ using System.Threading.Tasks;
 
 namespace byteBankAlura.SistemaInterno
 {
-    public abstract class Autenticavel : Funcionario
+    public interface IAutenticavel
     {
         public string senha { get; set; }
         public abstract bool autenticar(string senha);
-      
-        public Autenticavel(string cpf, double salario) : base(cpf, salario)
-        {
-        }
-
- 
+   
     }
 }
